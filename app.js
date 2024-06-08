@@ -13,6 +13,6 @@ function moveButton() {
 }
 
 function noPlay() {
-   var audio = new Audio require('../pou-no-sound-effect.mp3');
+   var audio = new Audio ('./pou-no-sound-effect.mp3');
    audio.play();
 }
